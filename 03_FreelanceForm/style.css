@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+}
+.main-box {
+  background-color: rgb(67, 72, 71);
+  color: white;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  padding: 10px 40px 20px;
+}
+
+#input {
+  width: 250px;
+  height: 25px;
+}
+.forms {
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: rgb(198, 129, 2);
+  color: white;
+  width: 250px;
+  height: 25px;
+  margin-bottom: 20px;
+}
