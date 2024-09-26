@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 45px 0;
+  color: #2e7ad3;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: #104c90;
+}
+p {
+  font-size: 16px;
+  margin: 0px 0px 9px;
+}
+.image {
+  text-align: center;
+}
+.post {
+  margin: 45px auto;
+  width: 500px;
+  background-color: #f1f1f1;
+  padding: 25px;
+}
+.post-header {
+  margin-bottom: 25px;
+}
+.links {
+  font-weight: 700;
+}
+.links a,
+a:hover {
+  color: orange;
+}
