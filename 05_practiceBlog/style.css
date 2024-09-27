@@ -8,14 +8,25 @@ h1 {
   color: #2e7ad3;
 }
 h2 {
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin: 0 0 15px;
+  /* margin-bottom: 15px; */
   font-size: 32px;
   color: #104c90;
 }
 p {
   font-size: 16px;
   margin: 0px 0px 9px;
+}
+a {
+  color: orange;
+  font-weight: bold;
+}
+a:hover,
+a:focus {
+  color: #104c90;
+}
+a:visited {
+  color: orange;
 }
 .image {
   text-align: center;
@@ -30,9 +41,5 @@ p {
   margin-bottom: 25px;
 }
 .links {
-  font-weight: 700;
-}
-.links a,
-a:hover {
-  color: orange;
+  margin: 0;
 }
