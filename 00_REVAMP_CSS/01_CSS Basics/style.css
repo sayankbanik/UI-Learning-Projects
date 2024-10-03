@@ -1,0 +1,54 @@
+html,
+body {
+  font-family: "arial", sans-serif;
+  /*property font-family is inherited inside every child of the body*/
+  border: 3px solid red;
+  /* but border property is not inherited like font-family*/
+}
+/* Type Selectors*/
+h2 {
+  color: red;
+  font-size: 30px;
+}
+a {
+  color: rgb(11, 148, 202);
+  text-decoration: none;
+}
+
+/* class selectors -- '.'*/
+.sporty {
+  color: orange;
+}
+.casual {
+  color: blue;
+}
+.formal {
+  color: brown;
+}
+
+/*Id Selectors -- '#' */
+#container {
+  max-width: 600px;
+  background-color: bisque;
+  margin: 100px auto;
+  padding: 20px;
+}
+/* Note
+* It is better to use classes while styling 
+*/
+
+/* Multiple Selectors --'selector1 , selector2,..., selectorN
+ -- when to put same style on different elements*/
+.sporty,
+.formal {
+  font-size: 45px;
+}
+
+/* Descendant Selectors -- targets the descendant elements*/
+#container p {
+  background-color: pink; /*all paragraph under container is targeted*/
+}
+
+p {
+  background-color: yellow;
+}
