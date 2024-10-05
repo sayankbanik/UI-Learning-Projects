@@ -1,0 +1,37 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000; /*short-hand*/
+  background-color: #ffffff;
+}
+
+/* color names*/
+.sporty {
+  color: DeepPink;
+}
+
+/* Hexadecimal values*/
+.casual {
+  color: #ff4500;
+}
+
+/* RGB values*/
+.formal {
+  color: rgb(102, 51, 153);
+}
+
+.card {
+  /* RGBA */
+  background-color: rgba(240, 120, 100, 0.5);
+  /* a ---> transparency, value lies 0 to 1*/
+}
+
+.card-2 {
+  background-color: red;
+  color: #fff;
+  opacity: 0.5; /*0-- transparent 1--low*/
+}
+
+/*
+Its better to use rgba than opacity
+because opacity can affects the text also
+*/
